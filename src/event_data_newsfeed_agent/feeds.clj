@@ -28,7 +28,8 @@
         link (.getLink entry)
         ; for feedburner this is the URL of the feed, but only the link is actually defined as being the URL.
         id (.getUri entry)
-        updated (clj-time-coerce/to-string (clj-time-coerce/from-date (.getUpdatedDate entry)))
+        
+        updated (clj-time-coerce/to-string (clj-time-coerce/from-date (or (.getUpdatedDate entry) (.getPublishedDate entry))))
         ^SyndContent description (.getDescription entry)
         summary (.getValue description)]
     { :title title

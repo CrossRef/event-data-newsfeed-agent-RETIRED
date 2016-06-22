@@ -14,13 +14,13 @@ This is written to deal with Feedburner aggregated ResearchBlogging items where 
 
 Taken from http://researchblogging.org/static/index/page/rss
 
- - http://feeds.feedburner.com/ResearchBloggingAllEnglish
- - http://feeds.feedburner.com/ResearchBloggingAllChinese
- - http://feeds.feedburner.com/ResearchBloggingAllGerman
- - http://feeds.feedburner.com/ResearchBlogging-AllTopics-Italian
- - http://feeds.feedburner.com/ResearchBlogging-AllTopics-Polish
- - http://feeds.feedburner.com/ResearchBloggingAllPortuguese
- - http://feeds.feedburner.com/ResearchBloggingAllSpanish
+ - http://feeds.feedburner.com/ResearchBloggingAllEnglish?format=xml
+ - http://feeds.feedburner.com/ResearchBloggingAllChinese?format=xml
+ - http://feeds.feedburner.com/ResearchBloggingAllGerman?format=xml
+ - http://feeds.feedburner.com/ResearchBlogging-AllTopics-Italian?format=xml
+ - http://feeds.feedburner.com/ResearchBlogging-AllTopics-Polish?format=xml
+ - http://feeds.feedburner.com/ResearchBloggingAllPortuguese?format=xml
+ - http://feeds.feedburner.com/ResearchBloggingAllSpanish?format=xml
 
 Scienceseeker (these are on Joe's personal account)
 
@@ -92,16 +92,6 @@ Scienceseeker (these are on Joe's personal account)
  - http://www.inoreader.com/stream/user/1005830516/tag/Artificial%20Intelligence
  - http://www.inoreader.com/stream/user/1005830516/tag/Psychology
  - http://www.inoreader.com/stream/user/1005830516/tag/Neuroscience
-
-
-
-
-
-
-
-
-
-http://www.inoreader.com/stream/user/1005830516/tag/Neuroscience
 
 
 ## License
