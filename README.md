@@ -1,6 +1,6 @@
 # Event Data Newsfeed Agent
 
-An Event Data agent for following news feeds in Atom and RSS format.
+An Event Data agent for following news feeds in Atom and RSS format. Experimental.
 
 ## Running
 
