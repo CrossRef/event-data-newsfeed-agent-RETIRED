@@ -4,8 +4,9 @@
             [event-data-newsfeed-agent.process :as process]
             [event-data-newsfeed-agent.push :as push])
   (:require [baleen.context :as baleen]
-            [baleen.monitor :as baleen-monitor]
-            )
+            [baleen.monitor :as baleen-monitor])
+  (:require [clj-time.core :as clj-time]
+            [clj-time.format :as clj-time-format])
   (:gen-class))
 
 (defn main-enqueue [context]
@@ -52,8 +53,7 @@
 
         command (first args)]
 
-    (when-not (baleen/boot! context)
-      (System/exit 1))
+    (baleen/boot! context)
 
     (condp = command
       "add-feed" (main-add context (second args))
