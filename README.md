@@ -10,6 +10,8 @@ An Event Data agent for following news feeds in Atom and RSS format. Experimenta
 
 ## Working feed set
 
+TODO test with https://rss.sciencedaily.com/all.xml and add fetching
+
 This is written to deal with Feedburner aggregated ResearchBlogging items where the reference list is included in the RSS feed. For other feeds slight tweaks might be necessary.
 
 Taken from http://researchblogging.org/static/index/page/rss
@@ -92,6 +94,14 @@ Scienceseeker (these are on Joe's personal account)
  - http://www.inoreader.com/stream/user/1005830516/tag/Artificial%20Intelligence
  - http://www.inoreader.com/stream/user/1005830516/tag/Psychology
  - http://www.inoreader.com/stream/user/1005830516/tag/Neuroscience
+
+## Install on production
+
+`lein uberjar` to compile. Systemd scripts in `etc`:
+
+ - `event-data-newsfeed-agent-monitor.service`
+ - `event-data-newsfeed-agent-process.service`
+ - `event-data-newsfeed-agent-push.service`
 
 
 ## License
