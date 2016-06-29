@@ -8,7 +8,7 @@ PIDFile=/var/run/event-data-newsfeed-agent-monitor.pid
 WorkingDirectory=/home/deploy/event-data-newsfeed-agent
 Environment=CONFIG=/home/deploy/event-data-newsfeed-agent/config/prod/config.edn
 ExecStart=/usr/bin/java -jar /home/deploy/event-data-newsfeed-agent/target/uberjar/event-data-newsfeed-agent-0.1.0-SNAPSHOT-standalone.jar monitor
-Restart=on-abort
+Restart=always
 User=deploy
 
 [Install]
